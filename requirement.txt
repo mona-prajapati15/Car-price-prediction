@@ -1,7 +1,0 @@
-pandas
-seaborn
-numpy
-scikit-learn
-streamlit
-pickle
-statsmodels
