@@ -6,40 +6,65 @@ This project is a **Card Prediction Model** built using machine learning and dat
 
 Before running the model, make sure the following libraries are installed:
 
-- **pandas** – for data manipulation and analysis  
-- **numpy** – for numerical operations  
-- **seaborn** – for data visualization  
-- **scikit-learn** – for building and evaluating ML models  
-- **streamlit** – for creating an interactive web interface  
-- **pickle** – for saving and loading trained models  
-- **statsmodels** – for statistical testing and model summaries  
+- **pandas** – for data manipulation and analysis
+- **numpy** – for numerical operations
+- **seaborn** – for data visualization
+- **scikit-learn** – for building and evaluating ML models
+- **streamlit** – for creating an interactive web interface
+- **pickle** – for saving and loading trained models *(built-in module)*
+- **statsmodels** – for statistical testing and model summaries
 
 Install all dependencies using:
 
 ```bash
 pip install pandas numpy seaborn scikit-learn streamlit statsmodels
+```
 
+## 🚀 How to Run the Project
 
-### How to Run the Project
 1. Clone this repository or download the source code.
 2. Train your model using the dataset.
-3. Save the model using pickle.
-4. Create a Streamlit app (app.py) to serve predictions.
-
-
-**To run the Streamlit app:**
+3. Save the trained model using pickle.
+4. Create a Streamlit app (`app.py`) to serve predictions.
+5. To run the Streamlit app:
 
 ```bash
 streamlit run app.py
+```
 
-### File Structure
+## 📁 File Structure
 
-├── app.py                 # Streamlit app
-├── model.pkl              # Trained ML model
-├── data.csv               # Dataset used for training (example)
-├── README.md              # This file
+```
+├── app.py           # Streamlit app
+├── model.pkl        # Trained ML model
+├── data.csv         # Dataset used for training (optional)
+├── README.md        # Project documentation
+```
 
+## 🔗 Useful Links
 
-## Author
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Statsmodels Documentation](https://www.statsmodels.org/stable/index.html)
+
+## 👩‍💻 Author
 
 [Mona Prajapati](https://www.linkedin.com/in/monaprajapati/)
+
+Contributions and feedback are welcome!
+
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+
+## 🛠️ Badges
+
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-1.0%2B-red)
+![License](https://img.shields.io/badge/license-MIT-green)
