@@ -15,7 +15,7 @@ st.title("Car Price Prediction App")
 st.markdown("Enter car specification to predict the price")
 
 #Input fields for selected features
-constant=st.selectbox("constant",[0,1])
+
 carwidth=st.number_input("Car Width (inches)", min_value=50.0, max_value=80.0,value=65.0)
 curbweight=st.number_input("Curb Weight (kg)",min_value=500.0, max_value=2000.0, value=1200.0)
 enginesize=st.number_input("Engine Size (cc)",min_value=60.0, max_value=400.0, value=150.0)
@@ -28,7 +28,6 @@ rear=st.selectbox("Rear Wheel Drive?",[0,1])
 
 #Crete input Frame
 input_data=pd.DataFrame({
-    'const':[constant],
     'carwidth':[carwidth],
     'curbweight':[curbweight],
     'enginesize':[enginesize],
