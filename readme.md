@@ -1,6 +1,6 @@
-# 🧠 Card Prediction Model
+# 🧠 Car Prediction Model
 
-This project is a **Card Prediction Model** built using machine learning and data science libraries in Python. It leverages the power of logistic regression and other statistical techniques to predict card-related outcomes based on input data.
+This project is a **Car Prediction Model** built using machine learning and data science libraries in Python. It leverages the power of logistic regression and other statistical techniques to predict car-related outcomes based on input data.
 
 ## 📦 Required Libraries
 
@@ -53,7 +53,6 @@ streamlit run app.py
 
 Contributions and feedback are welcome!
 
-
 ## 🤝 Contributing
 
 1. Fork the repository.
@@ -67,4 +66,8 @@ Contributions and feedback are welcome!
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.0%2B-red)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Pandas](https://img.shields.io/badge/pandas-2.0%2B-green)
+![NumPy](https://img.shields.io/badge/numpy-1.24%2B-yellow)
+![Seaborn](https://img.shields.io/badge/seaborn-0.12%2B-orange)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-blueviolet)
+![Statsmodels](https://img.shields.io/badge/statsmodels-0.14%2B-lightgrey)
