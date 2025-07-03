@@ -2,7 +2,7 @@ import streamlit as st
 import pickle as pkl
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
+
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LinearRegression
