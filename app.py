@@ -8,7 +8,7 @@ from sklearn.feature_selection import RFE
 from sklearn.linear_model import LinearRegression
 
 #load model
-with open('car_price_model.pkl','rb') as file:              #load
+with open('car_price.pkl','rb') as file:              #load
     model=pkl.load(file)
 #Streamlit app UI
 st.title("Car Price Prediction App")
